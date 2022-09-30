@@ -53,7 +53,7 @@ create.onclick = function () {
     category: category.value,
   };
 
-  if (title.value != "" && price.value != "" && category.value != "" && newObject.count > 100) {
+  if (title.value != "" && price.value != "" && category.value != "") {
     if (mood === "create") {
       if (newObject.count > 1) {
         for (let i = 0; i < newObject.count; i++) {
